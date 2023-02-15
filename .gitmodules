@@ -1,6 +1,6 @@
 [submodule "lib/chibios"]
 	path = lib/chibios
-	url = https://github.com-hope/kagurazakahope/ChibiOS
+	url = git@github.com-hope:kagurazakahope/ChibiOS.git
 	branch = master
 [submodule "lib/chibios-contrib"]
 	path = lib/chibios-contrib
