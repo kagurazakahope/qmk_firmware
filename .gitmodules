@@ -21,3 +21,6 @@
 [submodule "lib/pico-sdk"]
 	path = lib/pico-sdk
 	url = https://github.com/qmk/pico-sdk.git
+[submodule "keyboards/y_u0003_as_shell"]
+	path = keyboards/y_u0003_as_shell
+	url = git@github.com-hope:kagurazakahope/y_u0003_as_shell.git
