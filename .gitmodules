@@ -2,6 +2,7 @@
 	path = lib/chibios
 	url = git@github.com-hope:kagurazakahope/ChibiOS.git
 	branch = master
+    update = merge
 [submodule "lib/chibios-contrib"]
 	path = lib/chibios-contrib
 	url = https://github.com/qmk/ChibiOS-Contrib
@@ -24,3 +25,4 @@
 [submodule "keyboards/y_u0003_as_shell"]
 	path = keyboards/y_u0003_as_shell
 	url = git@github.com-hope:kagurazakahope/y_u0003_as_shell.git
+    update = merge
