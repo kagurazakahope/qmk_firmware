@@ -62,7 +62,9 @@ void matrix_init_user(void) {
     mute_btn_level = 0; // readPin(MY_MUTE_BTN_DIRECT_PIN);
     mute_btn_level_temp = mute_btn_level;
 
-    setPinInputHigh(A9);
+    //setPinInputHigh(A9);
+    setPinInput(A9);
+    setPinInput(A10);
 }
 
 void matrix_scan_user(void) {
