@@ -5,17 +5,20 @@
 
 #define MATRIX_COLS 17
 #define MATRIX_ROWS 7
-#define MATRIX_COL_PINS { A3, A4, A5, A6, A7, A8, C13, A10, A14, A15, A13, B0, B9, B10, B12, B13, B14 }
-#define MATRIX_ROW_PINS { B8, B1, B3, B4, B5, B6, B7 }
 
-#define ENCODERS_PAD_A { B15 }
-#define ENCODERS_PAD_B { C15 }
+//                         0   1   2   3    4    5    6    7   8   9  10  11  12  13  14  15  16
+#define MATRIX_COL_PINS { A7, C4, C5, B0, B12, B13, B14, B15, C6, C7, C8, C9, A5, A6, C2, C1, C0 }
+//                         0   1   2   3   4    5    6
+#define MATRIX_ROW_PINS { B5, B6, B4, B3, D2, C12, C11 }
+
+#define ENCODERS_PAD_A { A2 }
+#define ENCODERS_PAD_B { A1 }
 #define ENCODER_RESOLUTION 4
-#define MY_MUTE_BTN_DIRECT_PIN C14
+#define MY_MUTE_BTN_DIRECT_PIN B8
 
-#define LED_NUM_LOCK_PIN A0
-#define LED_CAPS_LOCK_PIN A1
-#define LED_SCROLL_LOCK_PIN A2
+#define LED_NUM_LOCK_PIN B7
+#define LED_CAPS_LOCK_PIN A8
+#define LED_SCROLL_LOCK_PIN B9
 
 /*
  * Feature disable options
